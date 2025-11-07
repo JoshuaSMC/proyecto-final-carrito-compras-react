@@ -108,14 +108,14 @@ npm run dev
 Luego abrí http://localhost:5173
  en tu navegador 🚀
 
-##🌱 Futuras mejoras
+## 🌱 Futuras mejoras
 
--🚧 Integración con una base de datos o API de productos.
--🧾 Sistema de login y registro de usuario.
--💳 Simulación de pago en línea.
--🛠 Filtros y categorías por tipo de producto.
+- 🚧 Integración con una base de datos o API de productos.
+- 🧾 Sistema de login y registro de usuario.
+- 💳 Simulación de pago en línea.
+- 🛠 Filtros y categorías por tipo de producto.
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Desarrollado por Joshua SMC
 
