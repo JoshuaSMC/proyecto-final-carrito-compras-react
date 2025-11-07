@@ -38,7 +38,7 @@ Este proyecto fue parte del recorrido formativo de **Desarrollo Web Front End** 
 ---
 
 ## 📁 Estructura del proyecto
-
+```
 src/
 ├── components/
 │ ├── CardComponent.jsx
@@ -58,7 +58,7 @@ src/
 │
 ├── App.jsx
 └── main.jsx
-
+```
 ---
 
 ## 🎨 Diseño visual
@@ -91,7 +91,7 @@ Durante el desarrollo de este proyecto aprendí a:
 
 Si querés probar el proyecto en tu entorno local:
 
-`bash
+```bash
 # Clonar el repositorio
 git clone https://github.com/JoshuaSMC/proyecto-final-carrito-compras-react.git
 
@@ -103,15 +103,17 @@ npm install
 
 # Iniciar el entorno de desarrollo
 npm run dev
+
+```
 Luego abrí http://localhost:5173
  en tu navegador 🚀
 
 ##🌱 Futuras mejoras
 
-🚧 Integración con una base de datos o API de productos.
-🧾 Sistema de login y registro de usuario.
-💳 Simulación de pago en línea.
-🛠 Filtros y categorías por tipo de producto.
+-🚧 Integración con una base de datos o API de productos.
+-🧾 Sistema de login y registro de usuario.
+-💳 Simulación de pago en línea.
+-🛠 Filtros y categorías por tipo de producto.
 
 👨‍💻 Autor
 
