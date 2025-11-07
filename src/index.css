@@ -1,0 +1,63 @@
+/* PALETA
+Beige principal: #f8f3e7
+Marrón oscuro: #6b5430
+Dorado tenue: #c7a35e
+Rojo acento: #b11226
+Negro profundo: #1b1b1b
+*/
+
+/* GLOBAL */
+* {
+  transition: all 0.2s ease-in-out;
+}
+body {
+  background-color: #f8f3e7;
+  color: #3a2c1a;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTENEDORES PRINCIPALES */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* TITULOS */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #b11226;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px rgba(177, 18, 38, 0.3);
+  margin-bottom: 25px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+}
+
+/* Teléfonos más pequeños */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+
+
+
+
+

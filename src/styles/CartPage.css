@@ -1,0 +1,79 @@
+/* TABLA DE CARRITO */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #fff9f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #c7a35e;
+  color: #fffdf7;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0d4b8;
+  color: #3a2c1a;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table button {
+  background-color: #c7a35e;
+  color: #fffdf7;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.table button:hover {
+  background-color: #b11226;
+}
+
+.table .btn.btn-primary {
+  background-color: #e8dcc2;  
+  color: #3a2c1a;             
+  border: 1px solid #c7a35e; 
+  cursor: default;
+}
+
+.table .btn.btn-primary:hover {
+  background-color: #e8dcc2;
+  transform: none;
+}
+
+/* TOTAL */
+.table tr:last-child td {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #f1e7d3;
+}
+
+/*  BOTÓN COMPRAR */
+.d-grid button {
+  margin-top: 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  background-color: #b11226;
+  color: #fffdf7;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.d-grid button:hover {
+  background-color: #8b0e1e;
+  transform: translateY(-2px);
+}

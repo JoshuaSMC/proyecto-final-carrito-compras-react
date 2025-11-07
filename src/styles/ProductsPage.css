@@ -1,0 +1,101 @@
+
+
+/* FORMULARIOS */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #c7a35e;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  background-color: #fff9f2;
+  color: #3a2c1a;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #b11226;
+  box-shadow: 0 0 8px rgba(177, 18, 38, 0.2);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  background-color: #c7a35e;
+  color: #fffdf7;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b11226;
+}
+
+/* GRID DE PRODUCTOS */
+.movie-list, .product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+  form {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .add-button {
+    width: 90%;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  /* TABLA */
+  .table th,
+  .table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  /* BOTÓN COMPRAR */
+  .d-grid button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* 📱 Teléfonos más pequeños */
+@media (max-width: 480px) {
+
+  input[type="text"],
+  .add-button {
+    font-size: 13px;
+    width: 95%;
+  }
+
+  .table th,
+  .table td {
+    font-size: 11px;
+  }
+
+  .d-grid button {
+    font-size: 14px;
+  }
+}
